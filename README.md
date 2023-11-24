@@ -1,39 +1,83 @@
 # Pizza_store
-# Overview
 
-This project aims to create a Pizza store database. It will insert, find , delete and update the staff information. 
+# Table of Contents
+
+* General Info
+
+* Technologies Used
+
+* Features
+
+* Setup
+
+* Usage
+
+* Project Status
+
+* Room for Improvement
+
+* Acknowledgement
+
+# General Info
+
+In today's digital age, people often face challenges in finding specific items they desire due to the lack of comprehensive and easily accessible data on the internet. This problem becomes even more challenging when individuals have a specific item in mind but are uncertain about its location or where to find it. Therefore, there is a need for a solution that enables users to upload a picture of the desired item and obtain information about exact items.
+The project developed leverages image recognition and data integration techniques to provide users with a platform to find exact items or recommend similar ones and locate shops or locations where they are available.
+
+# Technologies Used
+
+* Python
+* Streamlit
+* Google Colab
+* Postgres
+* CNN - VGG16 model
+* VS Code
 
 
-# Getting Started
-
-These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes. If you want to deploy the project, additional steps may be required.
-
-# Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-Python installed on your local machine.
-pip package manager installed.
-
-# Installation
-- Clone this repository to your local machine using git clone 
-- Navigate to the project directory: cd project1
-- Install the required packages using pip install 
+# Features
+Training and test data we used Fashion dataset, focusing on 13 sub-categories composed of 5 main categories : 
+- Clothes(t-shirts, pants, shorts and socks)
+- Shoes (loafers, sandalsand sneakers/running shoes)
+- Watches and sun glasses
+- Bags (backpacks and handbags)
+- Sports balls
 
 
-# Running the Compiler
 
-To run the Flask app for the EMS, follow these steps:
+# Setup
 
-Ensure you are connected to a database 
+To run this project using Google Colab and manage your code on GitHub, follow these steps:
 
-- Run the flask app using the following code:
-python3 project1.py
+* Clone the GitHub repository to your Google Colab environment:
 
-- This will start the flask app, and you can access it in your web browser.
+* Upload the repository to your Google Colab workspace:
 
+* Open and run the Jupyter Notebook files within Google Colab to explore the analysis and models.
 
-# Acknowledgments
-Special thanks to Lettitia Mokubung
+* Save your changes in Google Colab and push them to your GitHub repository for version control:
+
+# Usage
+
+This project can be used for:
+Image recognition
+
+# Room for Improvement
+Fine tune the model for better accuracy
+Camera can be properly worked on
+
+# Acknowledgement
+
+Precious Matea
+
+Eddie Ngobeni
+
+Malebo Phosa
+
+Vunene Mabasa
+
+Maxwell Makinana
+
+# Project status
+Incomplete
+
 
 
